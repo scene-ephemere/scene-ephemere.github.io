@@ -1,3 +1,4 @@
-/generated/
-/scene-ephemere-site/.hugo_build.lock
-/scene-ephemere-site/resources/_gen/
+.hugo_build.lock
+resources/_gen/
+public/
+.DS_Store

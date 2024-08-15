@@ -1,0 +1,83 @@
+{{ define "main" }}
+
+{{- partial "content/breadcrumb.html" . -}}
+
+<div class="py-14">
+
+	<div class="mb-14">	
+
+		<img class="rounded-3xl" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
+
+	</div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+    <article class="md:col-span-2 prose lg:prose-lg">
+  
+      <header class="not-prose">
+        
+        <h1 id="title" class="text-4xl font-bold leading-normal">{{ .Title }}</h1>
+  
+        <div id="lead" class="my-6">
+  
+          <p class="font-bold">{{ .Params.description }} </p>
+  
+        </div>    
+
+        {{- partial "terms.html" (dict "taxonomy" "categories" "page" .) -}}
+
+      </header>
+  
+  
+      <div id="content" class="mb-14">
+        <!-- Content -->
+  
+        {{- .Content -}}
+        
+      </div>     
+  
+      <footer id="content-footer" class="not-prose">
+       
+  
+        <div id="related-post" class="">
+  
+          <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Actualité</h2>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">            
+
+            {{ $paginator := .Paginate ( sort ( where .Site.RegularPages "Section" .CurrentSection.Section) "Date" "asc")}}
+            {{ range $paginator.Pages }}
+            
+              {{- partial "content/card.html" . -}}
+      
+            {{ end }}
+          
+          </div>
+      
+          <!-- Paginate here -->
+      
+          <div class="flex items-center mt-10">
+            {{- if $paginator.HasPrev -}}
+              <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ $paginator.Prev.URL }}">← Previous</a>
+            {{- end -}}
+      
+            {{- if $paginator.HasNext -}}
+              <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ $paginator.Next.URL }}">Next →</a>
+            {{- end -}}
+          </div>
+        </div>
+  
+      </footer>
+  
+    </article>
+  
+    <aside class="md:col-span-1">
+
+			{{- partial "content/upcoming-shows.html" . -}}
+		
+		</aside>
+
+  </div>
+</div>
+
+{{ end }}

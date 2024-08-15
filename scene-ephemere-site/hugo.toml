@@ -1,5 +1,0 @@
-baseURL = 'https://scene-ephemere.github.io/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-publishDir = '../'
-theme = 'ananke'

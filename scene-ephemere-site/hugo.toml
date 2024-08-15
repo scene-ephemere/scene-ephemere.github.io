@@ -11,7 +11,7 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
+	description = 'Scène Ephémère ASBL.'
 	mainSections = 'posts'
     enableDarkMode = true
     defaultDarkMode = true

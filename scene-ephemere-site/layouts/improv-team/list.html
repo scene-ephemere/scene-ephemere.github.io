@@ -22,8 +22,10 @@
   
           <p class="font-bold">{{ .Params.description }} </p>
   
-        </div>
-        
+        </div>    
+
+        {{- partial "terms.html" (dict "taxonomy" "categories" "page" .) -}}
+
       </header>
   
   
@@ -31,8 +33,8 @@
         <!-- Content -->
   
         {{- .Content -}}
-  
-      </div>
+        
+      </div>     
   
       <footer id="content-footer" class="not-prose">
        
@@ -41,23 +43,28 @@
   
           <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Actualité</h2>
           
-          {{ $upcomingEvents := where (where .Site.RegularPages "Type" "show") "Section" .CurrentSection.Section }}
-  
-          {{- $related := where .Site.RegularPages "Section" .CurrentSection.Section  | first 2 -}}
-  
-          {{- with $related -}}
-  
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-  
-            {{- range . }}
-  
-            {{- partial "content/card.html" . -}}
-  
-            {{- end }}
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10 gap-x-4">            
+
+            {{ $paginator := .Paginate ( sort ( where .Site.RegularPages "Section" .CurrentSection.Section) "Date" "asc")}}
+            {{ range $paginator.Pages }}
             
+              {{- partial "content/card.html" . -}}
+      
+            {{ end }}
+          
           </div>
-  
-          {{- end }}
+      
+          <!-- Paginate here -->
+      
+          <div class="flex items-center mt-10">
+            {{- if $paginator.HasPrev -}}
+              <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ $paginator.Prev.URL }}">← Previous</a>
+            {{- end -}}
+      
+            {{- if $paginator.HasNext -}}
+              <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ $paginator.Next.URL }}">Next →</a>
+            {{- end -}}
+          </div>
         </div>
   
       </footer>

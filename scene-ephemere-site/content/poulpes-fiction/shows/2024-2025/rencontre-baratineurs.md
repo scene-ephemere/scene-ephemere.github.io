@@ -1,6 +1,6 @@
 ---
 title: "Les Baratineurs : Rencontre d'impro"
-date: 2024-08-06T20:37:29+07:00
+date: 2024-05-06T20:37:29+07:00
 slug: /rencontre-baratineurs/
 description: Rencontre d'impro
 image: "https://scontent.flgg1-1.fna.fbcdn.net/v/t39.30808-6/455024949_465178486342730_1264093708440453541_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=75d36f&_nc_ohc=TZ4FVjJ0XEcQ7kNvgHp2HnV&_nc_ht=scontent.flgg1-1.fna&oh=00_AYBG28JxLx_o7qiESJLbyxRP7fDGuiRAc-tEeKJ6wOJD4A&oe=66C3D9A4"

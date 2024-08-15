@@ -2,9 +2,9 @@
 
 	<div class="space-y-6">
 
-		<h2 class="font-bold text-xl mb-8">Recent Post</h2>
+		<h2 class="font-bold text-xl mb-8">Actualité Récente</h2>
 
-		{{ range where .Site.RegularPages "Type" "posts" | first 5}}
+		{{ range .Site.RegularPages | first 5}}
 
 			{{- partial "content/list-post.html" . -}}
 

@@ -3,12 +3,9 @@
 	<div class="space-y-6">
 
 		<h2 class="font-bold text-xl mb-8">Shows à venir</h2>
-
-		{{ $currentSection := .CurrentSection }}		
-		{{ $eventsPath := printf "%s/shows" $currentSection.Path }}		
-		{{ $upcomingEvents := where .Site.RegularPages "Type" "show" }}
-
-		{{ $sortedEvents := sort $upcomingEvents "Date" "asc" }}
+		
+		{{ $upcomingEvents := where (where .Site.RegularPages "Type" "show") "Section" .CurrentSection.Section }}	
+		{{ $sortedEvents := sort $upcomingEvents "Params.showDate" "asc" }}
 		{{ range where $sortedEvents "Params.showDate" "ge" (now.Format "2006-01-02")  | first 5}}	
 			{{- partial "content/list-post.html" . -}}
 		{{ end }}

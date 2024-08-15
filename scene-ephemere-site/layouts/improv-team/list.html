@@ -10,33 +10,67 @@
 
 	</div>
 
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-	<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-		<article class="md:col-span-2 prose lg:prose-lg">
-
-		<header class="not-prose mb-14">
-
-			<h1 class="text-4xl font-bold">{{ .Title }}</h1>
-		
-		</header>
-
-		<div id="content" class="prose lg:prose-lg">
-
-			{{- .Content -}}
-			
-		</div>
-
-		</article>
-
-		<aside class="md:col-span-1">
+    <article class="md:col-span-2 prose lg:prose-lg">
+  
+      <header class="not-prose">
+        
+        <h1 id="title" class="text-4xl font-bold leading-normal">{{ .Title }}</h1>
+  
+        <div id="lead" class="my-6">
+  
+          <p class="font-bold">{{ .Params.description }} </p>
+  
+        </div>
+        
+      </header>
+  
+  
+      <div id="content" class="mb-14">
+        <!-- Content -->
+  
+        {{- .Content -}}
+  
+      </div>
+  
+      <footer id="content-footer" class="not-prose">
+       
+  
+        <div id="related-post" class="">
+  
+          <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Actualité</h2>
+          
+          {{ $upcomingEvents := where (where .Site.RegularPages "Type" "show") "Section" .CurrentSection.Section }}
+  
+          {{- $related := where .Site.RegularPages "Section" .CurrentSection.Section  | first 2 -}}
+  
+          {{- with $related -}}
+  
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+  
+            {{- range . }}
+  
+            {{- partial "content/card.html" . -}}
+  
+            {{- end }}
+            
+          </div>
+  
+          {{- end }}
+        </div>
+  
+      </footer>
+  
+    </article>
+  
+    <aside class="md:col-span-1">
 
 			{{- partial "content/upcoming-shows.html" . -}}
 		
 		</aside>
 
-	</div>
-
+  </div>
 </div>
 
 {{ end }}

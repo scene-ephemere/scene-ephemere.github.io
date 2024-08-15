@@ -1,0 +1,1 @@
+Debug : 		<pre>{{ $upcomingEvents | jsonify }}</pre>

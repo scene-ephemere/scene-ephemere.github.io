@@ -32,16 +32,12 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 	[[menu.main]]
 		name = 'Shows'
 		pageRef = '/categories/shows'
-		weight = 25
-	[[menu.main]]
-		name = 'Taxonomy'
-		pageRef = '/tags/space/'
-		weight = 30
+		weight = 20
 
     [[menu.main]]
 		name = 'About'
 		pageRef = '/about'
-		weight = 20
+		weight = 25
 
 [module]
   [module.hugoVersion]

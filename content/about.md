@@ -1,42 +1,30 @@
 ---
-title: "About"
+title: "A propos"
 date: 2023-10-06T20:37:29+07:00
-image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
+image: images/scene-ephemere/banner.jpg
 draft: false
 ---
+**Scène Ephémère** est une ASBL dédiée à la promotion de l'improvisation théâtrale et des autres arts de la scène. Notre mission est de créer un espace où les artistes, amateurs et professionnels, peuvent explorer, pratiquer et partager leur passion pour les arts vivants.
 
-**Pehtheme Hugo** is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.
+## Nos Objectifs
 
-At **Pehtheme Hugo**, we believe that space exploration is not just a scientific endeavor; it's a human adventure. It's about the curiosity that drives us to look up at the night sky and wonder about the galaxies, stars, and planets that fill our universe.
+- **Promouvoir l'improvisation théâtrale** : Organiser des ateliers, spectacles, et événements pour faire découvrir et développer cet art unique, qui repose sur la spontanéité et la créativité collective.
+- **Favoriser les rencontres artistiques** : Encourager les échanges et collaborations entre artistes de différentes disciplines pour créer des œuvres originales et inspirantes.
 
-## Our Mission
+## Nos Activités
 
-Our mission is to inspire, educate, and spark curiosity about space and astronomy. We aim to make the wonders of the cosmos accessible to everyone, from seasoned astronomers to those taking their first steps into the world of stargazing.
+- **Gestion de la troupe d'impro Les Poulpes Fictions** 
+- **Spectacles et événements** : Organisation de spectacles d'improvisation, de soirées à thème, et de performances pluridisciplinaires pour mettre en avant la richesse des arts de la scène.
 
-Through a diverse range of articles, videos, images, and interactive tools, we strive to:
+## Nous Rejoindre
 
-- **Educate**: We provide well-researched, informative content that explains complex astronomical concepts in an accessible way.
+Que vous soyez un artiste en quête d'une scène pour vous exprimer, ou un amateur de spectacles vivants curieux de découvrir l'improvisation, **Scène Ephémère** vous accueille à bras ouverts. Rejoignez-nous pour participer à nos événements, ou simplement pour partager un moment de convivialité autour des arts de la scène.
 
-- **Inspire**: We share the breathtaking beauty of the universe through stunning images and stories of space exploration.
+## Contactez-nous
 
-- **Connect**: We foster a vibrant community where space enthusiasts can share their passion, ask questions, and learn from each other.
+Pour toute question ou information complémentaire, n'hésitez pas à nous écrire à :
 
-## What You'll Find Here
+📧 **[gestion@scene-ephemere.com](mailto:gestion@scene-ephemere.com)**
 
-- **Astronomy Insights**: Dive deep into the universe with articles and guides that cover everything from the basics of stargazing to the latest discoveries in astrophysics.
-
-- **Stunning Visuals**: Explore our gallery of celestial images captured by professional astronomers and space agencies, as well as astrophotography from our community members.
-
-- **Space Exploration Updates**: Stay informed about upcoming space missions, rocket launches, and groundbreaking discoveries in our ever-expanding cosmos.
-
-- **Interactive Tools**: Use our interactive sky maps and tools to plan your stargazing sessions and track celestial events.
-
-## Our Team
-
-We are a dedicated team of space enthusiasts, writers, astronomers, and scientists who are passionate about sharing the wonders of the universe. Our combined expertise in space science, astrophotography, and science communication allows us to bring you the best of the cosmos.
-
-## Join Our Cosmic Community
-
-We invite you to join us on this cosmic journey. Explore the depths of space with us, ask questions, share your own astronomical experiences, and become part of a community that looks to the stars with wonder and curiosity.
-
-Let's embark on this celestial adventure together. Welcome to **My Space Theme**—where the universe unfolds before your eyes.
+Vous pouvez également nous suivre sur notre page Facebook pour rester informé de nos dernières activités et événements :
+  {{< social-media facebookUrl="https://www.facebook.com/lespoulpesfiction" instagramUrl="https://www.instagram.com/poulpes_fiction/" emailAddress="gestion@scene-ephemere.com">}}

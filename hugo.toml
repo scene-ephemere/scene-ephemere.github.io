@@ -42,6 +42,3 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
-  [module.mounts] # Directing the static folder to assets.
-  	source = 'assets'
-  	target = 'static'

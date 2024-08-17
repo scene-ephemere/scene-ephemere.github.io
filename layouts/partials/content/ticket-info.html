@@ -1,0 +1,44 @@
+{{ $showInfo := .Page.Params.showInfo}}
+
+<h3>Infos et Tickets</h2>
+<div class="max-w-xs mx-auto p-4 border border-gray-300 rounded-lg bg-gray-50">
+    <div class="items-center">
+        <i class="fas fa-map-marker-alt mr-3"></i>
+        <span class="pl-2">{{ $showInfo.location }}</span>
+    </div>
+
+    {{ if eq $showInfo.dates nil }}
+        <div class="items-center mb-2">
+            <i class="fas fa-calendar-alt mr-3"></i>
+            <time datetime="{{ dateFormat "02/01/2006 15h04" $showInfo.date | safeHTML }}"><span>{{ dateFormat "02/01/2006 15h04" $showInfo.date }}</span></time>
+        </div>
+    {{ else }}
+        {{ range $showInfo.dates}}
+        <div class="items-center mb-2">
+            <i class="fas fa-calendar-alt mr-3"></i>
+            <time datetime="{{ dateFormat "02/01/2006 15h04" . | safeHTML }}"><span>{{ dateFormat "02/01/2006 15h04" . }}</span></time>
+        </div>
+        {{ end}}
+    {{ end }}
+
+    <div class="items-center mb-2">
+        <i class="fas fa-info-circle mr-3"></i>
+        <span>{{ $showInfo.info }}</span>
+    </div>
+    {{ $showDate := $showInfo.date | time.Format "2006-01-02" }}
+    {{ $currentDate := now.Format "2006-01-02" }}
+    {{ if ge $showDate $currentDate }}
+    <div class="items-center mb-2">
+        <i class="fas fa-ticket mr-3"></i>
+      <span>
+            <a href="{{ $showInfo.ticketsUrl }}" title="Tickets">Tickets</a>
+        </span>
+    </div>
+    {{ end }}
+    <div class="items-center">
+        <i class="fa-brands fa-facebook mr-3"></i>
+      <span>
+            <a href="{{ $showInfo.fbEventUrl}}" title="Evènement Facebook">Evènement</a>
+        </span>
+    </div>
+</div>

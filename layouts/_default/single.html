@@ -49,7 +49,7 @@
 
       <!-- Tags list -->
 
-      {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
+      {{/*- partial "terms.html" (dict "taxonomy" "tags" "page" .) -*/}}
 
     </div>
 
@@ -58,9 +58,10 @@
 
       <div id="related-post" class="">
 
-        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommended for You</h2>
+        <h2 class="text-xl md:text-2xl font-bold mb-6 md:mb-8">Recommandé pour vous</h2>
 
-        {{- $related := .Site.RegularPages.Related . | first 2 -}}
+        
+        {{- $related := where (where .Site.RegularPages "Section" .CurrentSection.Section) "Permalink" "ne" .Permalink | first 2 -}}
 
         {{- with $related -}}
 

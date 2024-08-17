@@ -1,7 +1,9 @@
 baseURL = 'https://scene-ephemere.github.io/'
-languageCode = 'fr-be'
+languageCode = 'fr-BE'
 title = 'Scène-Ephémère'
 theme = 'pehtheme'
+defaultContentLanguage = "fr"
+defaultContentLang = "fr"
 
 paginate = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters

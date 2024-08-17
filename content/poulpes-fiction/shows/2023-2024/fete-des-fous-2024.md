@@ -1,7 +1,7 @@
 ---
 title: "Fête des fous 2024 - Matinées Enfantines"
 slug: /fete-des-fous-2024/
-date: 2024-08-06T20:37:29+07:00
+date: 2024-08-06T20:00:29+00:00
 description: Un double cabaret improvisé !
 image: "https://scontent.flgg1-1.fna.fbcdn.net/v/t39.30808-6/453391569_456704723856773_8760383162146271771_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=75d36f&_nc_ohc=9c9Eq5Q0TT0Q7kNvgHtfvht&_nc_ht=scontent.flgg1-1.fna&oh=00_AYA8UOzFXr1mf0H1SjSpE-cGzcq8_1GygaqHoYDoBQ8klQ&oe=66C3AA84"
 categories:
@@ -9,7 +9,7 @@ categories:
 tags:
   - feature
 type: show  
-showDate: 2024-08-31T09:37:29+07:00
+showDate: 2024-08-31T14:30:00+01:00
 draft: false
 ---
 

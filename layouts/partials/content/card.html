@@ -25,8 +25,8 @@
 
 	<div class="p-6">
 
-		{{ if .Params.showDate }}
-		<time datetime="{{ dateFormat "02/01/2006 15h04" .Params.showDate | safeHTML }}">{{ dateFormat "02/01/2006 15h04" .Params.showDate }} </time>
+		{{ if .Params.showInfo.Date }}
+		<time datetime="{{ dateFormat "02/01/2006 15h04" .Params.showInfo.Date | safeHTML }}">{{ dateFormat "02/01/2006 15h04" .Params.showInfo.Date }} </time>
 		{{ end }}
 		<h3 class="my-4 text-2xl font-bold">{{ .LinkTitle }}</h3>
 

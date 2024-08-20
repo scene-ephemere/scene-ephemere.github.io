@@ -1,6 +1,6 @@
 baseURL = 'https://scene-ephemere.github.io/'
 languageCode = 'fr-BE'
-title = 'Scène-Ephémère'
+title = 'Scène Ephémère ASBL'
 theme = 'pehtheme'
 defaultContentLanguage = "fr"
 defaultContentLang = "fr"
@@ -16,7 +16,6 @@ summaryLength = '20' # <- 20 words are approximately 160 characters
 	mainSections = 'posts'
     enableDarkMode = true
     defaultDarkMode = true
-
 
 [menu] # Menu management
 	[[menu.main]]

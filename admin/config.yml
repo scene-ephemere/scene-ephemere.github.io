@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: scene-ephemere/scene-ephemere.github.io   # Replace with your GitHub username and repository name
+  branch: main                # Branch where the content files are stored
+  base_url: https://github.com
+  auth_endpoint: https://github.com/login/oauth/authorize
+  client_id: ${{ secrets.OAUTH_CLIENT_ID }}
+  client_secret: ${{ secrets.OAUTH_CLIENT_SECRET }}
+
+media_folder: "static/uploads" # Folder where uploaded files will be stored
+public_folder: "/uploads"      # URL path to access the media files
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }

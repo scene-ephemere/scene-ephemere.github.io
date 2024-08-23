@@ -29,16 +29,21 @@
     {{ $currentDate := now.Format "2006-01-02" }}
     {{ if ge $showDate $currentDate }}
     <div class="items-center mb-2">
-        <i class="fas fa-ticket mr-3"></i>
-      <span>
-            <a href="{{ $showInfo.ticketsUrl }}" title="Tickets">Tickets</a>
-        </span>
-    </div>
-    {{ end }}
-    <div class="items-center">
         <i class="fa-brands fa-facebook mr-3"></i>
       <span>
             <a href="{{ $showInfo.fbEventUrl}}" title="Evènement Facebook">Evènement</a>
         </span>
     </div>
-</div>
+    <div class="items-center">
+        {{ if $showInfo.billetwebEventId }}
+        {{ $billetwebEventId := $showInfo.billetwebEventId }}
+            <a title="Vente de billets en ligne" href="https://www.billetweb.fr/shop.php?event={{ $billetwebEventId }}"  class="shop_frame"  target="_blank"  data-src="https://www.billetweb.fr/shop.php?event={{ $billetwebEventId }}"  data-max-width="100%"  data-initial-height="600" data-scrolling="no"  data-id="{{ $billetwebEventId }}"  data-resize="1">Vente de billets en ligne</a><script type="text/javascript" src="https://www.billetweb.fr/js/export.js"></script>
+        {{ else }}
+            <i class="fas fa-ticket mr-3"></i>
+            <span>
+                <a href="{{ $showInfo.ticketsUrl }}" title="Tickets">Tickets</a>
+            </span>     
+        {{ end }}
+    </div>
+    {{ end }}
+  </div>

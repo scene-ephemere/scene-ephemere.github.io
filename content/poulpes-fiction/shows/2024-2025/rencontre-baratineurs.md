@@ -12,6 +12,7 @@ showInfo:
   location: "Au Jacadi - Rue de Fragnée 76, 4000 Liège" 
   info: "Tarif : 10€ - Etudiant(es): 7€"
   ticketsUrl: https://www.billetweb.fr/rencontre-dimpro-poulpes-fiction-vs-baratineurs
+  billetwebEventId: rencontre-dimpro-poulpes-fiction-vs-baratineurs
   fbEventUrl: "https://www.facebook.com/events/520505447221836"
 draft: false
 ---

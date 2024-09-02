@@ -1,5 +1,6 @@
 ---
 title: "A propos"
+slug: "a-propos"
 date: 2023-10-06T20:37:29+07:00
 image: images/scene-ephemere/banner.jpg
 draft: false

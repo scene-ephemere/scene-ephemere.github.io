@@ -1,0 +1,8 @@
+{{ $isPast := false}}
+
+{{ if .Params.showInfo.Date }}
+    {{ $showDateTime := time.AsTime .Params.showInfo.Date }}
+    {{ $isPast = (time.AsTime now).After $showDateTime }} 
+{{ end }}
+
+{{ return $isPast}}

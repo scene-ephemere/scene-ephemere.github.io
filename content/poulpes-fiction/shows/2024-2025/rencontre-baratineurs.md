@@ -7,6 +7,8 @@ image: images/poulpes-fiction/rencontre-baratineurs.jpg
 categories:
   - shows
 type: show  
+tags:
+  - feature
 showInfo:
   date: 2024-09-07T20:00:00+01:00 
   location: "Au Jacadi - Rue de Fragnée 76, 4000 Liège" 

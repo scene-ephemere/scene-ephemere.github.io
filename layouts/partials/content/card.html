@@ -1,10 +1,9 @@
-<article class="relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
+{{ $isPast := partial "functions/is-show-past.html" . }}
+<article class="{{ if $isPast }}grey-out{{ end }} relative group bg-zinc-100 hover:bg-blue-100 rounded-3xl">
 	
 	<a class="insert-link" href="{{ .Permalink }}"></a>
 
 	<figure class="w-full aspect-video overflow-hidden rounded-3xl">
-
-
 		{{- if .Params.image }}
 
 		  {{- if (strings.HasPrefix .Params.image "http") }}
@@ -21,7 +20,6 @@
 		  {{- end }}
 
 		{{- end }}
-
 	  </figure>
 
 	<div class="p-6">

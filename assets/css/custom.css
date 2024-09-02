@@ -2,3 +2,7 @@
     max-width: 200px;
     height: auto;
   }
+
+  .grey-out {
+    filter: grayscale(100%);
+}

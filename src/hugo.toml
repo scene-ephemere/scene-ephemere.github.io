@@ -4,7 +4,6 @@ title = 'Scène Ephémère ASBL'
 theme = 'pehtheme'
 defaultContentLanguage = "fr"
 defaultContentLang = "fr"
-publishDir= "../public"
 
 paginate = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters

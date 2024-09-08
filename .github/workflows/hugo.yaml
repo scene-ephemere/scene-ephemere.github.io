@@ -62,7 +62,7 @@ jobs:
         run: |
           hugo \
             --source src
-            --destination ../public
+            -d ../public
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          

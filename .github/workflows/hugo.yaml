@@ -61,7 +61,7 @@ jobs:
           TZ: Europe/Brussels
         run: |
           hugo \
-            --source src
+            --source "src"
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          

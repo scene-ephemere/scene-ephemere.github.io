@@ -16,10 +16,6 @@ draft: false
 - **Gestion de la troupe d'impro Les Poulpes Fictions** 
 - **Spectacles et événements** : Organisation de spectacles d'improvisation, de soirées à thème, et de performances pluridisciplinaires pour mettre en avant la richesse des arts de la scène.
 
-## Nous Rejoindre
-
-Que vous soyez un artiste en quête d'une scène pour vous exprimer, ou un amateur de spectacles vivants curieux de découvrir l'improvisation, **Scène Ephémère** vous accueille à bras ouverts. Rejoignez-nous pour participer à nos événements, ou simplement pour partager un moment de convivialité autour des arts de la scène.
-
 ## Contactez-nous
 
 Pour toute question ou information complémentaire, n'hésitez pas à nous écrire à :
@@ -28,3 +24,12 @@ Pour toute question ou information complémentaire, n'hésitez pas à nous écri
 
 Vous pouvez également nous suivre sur notre page Facebook pour rester informé de nos dernières activités et événements :
   {{< social-media facebookUrl="https://www.facebook.com/lespoulpesfiction" instagramUrl="https://www.instagram.com/poulpes_fiction/" emailAddress="gestion@scene-ephemere.com">}}
+
+## Mentions Légales
+
+- **Forme légale** : Association sans but lucratif
+- **Dénomination** : Scène Ephémère
+- **Objet social** : L'ASBL a pour but d'être active, de manière directe et/ou indirecte, dans le domaine des arts de la scène en ce compris, l'improvisation théâtrale.
+- **Siège social** : Rue de la Scorre 23, 4000 Liège (Belgique)
+- **N° Entreprise** : BE 0805.020.420
+- **E-mail** : 📧 **[gestion@scene-ephemere.com](mailto:gestion@scene-ephemere.com)**

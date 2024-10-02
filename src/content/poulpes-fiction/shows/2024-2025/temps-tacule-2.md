@@ -11,6 +11,7 @@ tags:
 showInfo:
   date: 2024-10-13T17:00:00+01:00 
   location: "A La Courte Echelle - Rue de Rotterdam, 4000 Liège" 
+  locationUrl: https://maps.app.goo.gl/dFuyMDry6AzCcm149
   info: "Tarif : 10€ - Etudiant(es): 7€"
   ticketsUrl: https://www.billetweb.fr/spectacle-dimprovisation-temps-tacules-episode-2
   billetwebEventId: spectacle-dimprovisation-temps-tacules-episode-2

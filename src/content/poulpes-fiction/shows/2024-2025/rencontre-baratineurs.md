@@ -1,6 +1,7 @@
 ---
 title: "Les Baratineurs : Rencontre d'impro"
-date: 2024-05-06T20:00:00+07:00
+date: 2024-09-07T20:00:00+01:00
+expiryDate: 2024-09-07T20:00:00+01:00
 slug: /rencontre-baratineurs/
 description: Rencontre d'impro
 image: images/poulpes-fiction/rencontre-baratineurs.jpg

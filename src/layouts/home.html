@@ -58,7 +58,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-x-6 gap-y-10">
 
-    {{ range sort (where .Site.RegularPages "Params.categories" "intersect" (slice $cat )) "Params.showInfo.Date" "asc" | last 3 }}
+    {{ range sort (where .Site.RegularPages "Params.categories" "intersect" (slice $cat )) "Params.showInfo.Date" "desc" | last 3 }}
 
       {{- partial "content/card" . -}}
 

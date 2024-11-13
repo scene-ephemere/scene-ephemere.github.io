@@ -1,7 +1,8 @@
 ---
 title: "Fête des fous 2024 - Matinées Enfantines"
 slug: /fete-des-fous-2024/
-date: 2024-08-06T20:00:29+00:00
+date: 2024-08-31T14:30:00+01:00
+expiryDate: 2024-08-31T14:30:00+01:00
 description: Un double cabaret improvisé !
 image: images/poulpes-fiction/fete-des-fous-2024.jpg
 categories:

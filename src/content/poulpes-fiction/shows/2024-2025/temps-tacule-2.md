@@ -1,6 +1,7 @@
 ---
 title: "SPECTACLE D'IMPROVISATION : TEMPS TACULES EPISODE 2"
-date: 2024-05-06T20:00:00+07:00
+date: 2024-10-13T17:00:00+01:00 
+expiryDate: 2024-10-13T17:00:00+01:00 
 description: "Spectacle Freeform/midform"
 image: images/poulpes-fiction/temps-tacule-2.jpg
 categories:

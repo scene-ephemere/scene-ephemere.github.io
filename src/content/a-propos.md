@@ -2,6 +2,7 @@
 title: "A propos"
 slug: "a-propos"
 image: images/scene-ephemere/a-propos.jpg
+expiryDate: 2070-11-23T20:00:00+01:00
 draft: false
 ---
 **Scène Ephémère** est une ASBL dédiée à la promotion de l'improvisation théâtrale et des autres arts de la scène. Notre mission est de créer un espace où les artistes, amateurs et professionnels, peuvent explorer, pratiquer et partager leur passion pour les arts vivants.

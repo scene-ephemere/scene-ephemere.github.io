@@ -11,6 +11,7 @@ tags:
   - feature
 showInfo:
   date: 2025-02-09T17:00:00+01:00 
+  location: "A La Courte Echelle - Rue de Rotterdam, 4000 Liège" 
   locationUrl: https://maps.app.goo.gl/dFuyMDry6AzCcm149
   info: "Tarif : 10€ - Etudiant(es): 7€"
   billetwebEventId: poulpez-manege-spectacle-dimpro

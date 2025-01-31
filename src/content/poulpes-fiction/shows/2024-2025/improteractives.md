@@ -1,6 +1,6 @@
 ---
 title: "Impro'teractives : Cabaret d'impro !"
-expiryDate: 2025-01-10T20:00:00+01:00
+expiryDate: 2025-04-25T20:00:00+01:00
 slug: /improteractives/
 description: Prenez le contrôle de nos impros !
 image: images/poulpes-fiction/improteractives.jpg
@@ -10,7 +10,7 @@ type: show
 tags:
   - feature
 showInfo:
-  date: 2025-01-10T20:00:00+01:00 
+  date: 2025-04-25T20:00:00+01:00 
   location: "Le P'tit Troca Rue Lulay des Febvres 6A, 4000 Liège, Belgique" 
   locationUrl: https://maps.app.goo.gl/uanee5AZ9ATfdZ9X6
   info: "Tarif : 12€ - Etudiant(es): 10€"
